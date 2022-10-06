@@ -378,7 +378,8 @@ footer{
     color: rgba(64,57,81,.63);
 }
 
-.agenda{
+.agenda,
+.perfil{
     display: none;
   }
   
