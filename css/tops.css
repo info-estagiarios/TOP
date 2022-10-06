@@ -425,25 +425,19 @@ footer{
     }
 
     .container .row .side-menu {
-        height: 25.5vh;
-    }
-}
-
-@media screen and (max-width: 855px) and (orientation: landscape){
-    .container .row .side-menu{
-        height: 44vh;
+        height: 43vh;
     }
 }
 
 @media (max-width: 821px){
     .container .row .side-menu {
-        height: 25.5vh;
+        height: 43vh;
     }
 }
 
-@media (max-width: 821px){
-    .container .row .side-menu{
-        height: 25vh;
+@media screen and (max-width: 821px) and (orientation: portrait){
+    .container .row .side-menu {
+        height: 17vh;
     }
 }
 
@@ -480,6 +474,12 @@ footer{
 
     .copy{
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 791px) and (orientation: landscape){
+    .container .row .side-menu{
+        height: 55vh;
     }
 }
 
