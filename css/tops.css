@@ -542,4 +542,34 @@ footer{
     .container .row .side-menu {
         height: 25vh;
     }
+
+    .menu__box{
+        width: 240px;
+    }
+}
+
+@media (max-width: 320px){
+    .text-cont-top p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 310px){
+    .cont-half span{
+        font-size: 0.8rem;
+    }
+
+    .menu__box{
+        width: 200px;
+    }
+}
+
+@media (max-width: 295px){
+    .text-cont-top p{
+        font-size: 0.8rem;
+    }
+
+    .menu__box{
+        left: -120%;
+    }
 }
