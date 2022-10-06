@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <!--====SCROLL===-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=== CSS ===-->
+    <link rel="stylesheet" href="../css/tops.css">
+    <title>Document</title>
+
+    <!--====MAP====-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin=""></script>
+</head>
+
+<body>
+    <!--==== HEADER ====-->
+    <header class="nav-bar">
+        <div class="logo">
+            <img src="../assets/logopmm.png" alt="logo-mpe">
+        </div>
+
+
+        <div class="hamburger-menu">
+            <input type="checkbox" name="" id="menu__toogle">
+            <label for="menu__toogle" class="menu__btn">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li class="icons"><img src="./assets/icons/house.svg" class="icon__menu" alt=""><a href=""
+                        class="menu__item">Home</a></li>
+                <li class="icons"><img src="./assets/icons/info-circle.svg" class="icon__menu" alt=""><a href=""
+                        class="menu__item">Sobre</a></li>
+                <li class="icons"><img src="./assets/icons/calendar-date.svg" class="icon__menu" alt=""><a href=""
+                        class="menu__item">Agenda</a></li>
+                <li class="icons"><img src="./assets/icons/telephone.svg" class="icon__menu" alt=""><a href=""
+                        class="menu__item">Contato</a></li>
+            </ul>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Agenda</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--====MAIN====-->
+    <main class="container">
+        <div class="row">
+            <div class="side-menu">
+                <ul class="navbar-nav">
+                    <li class="menu-items nav-item active" onclick="geral()">
+                        <a>Geral</a>
+                    </li>
+                    <li class="menu-items" onclick="agenda()">
+                        <a>Agenda Territorial</a>
+                    </li>
+                    <li class="menu-items" onclick="perfil()">
+                        <a>Perfil do Território</a></li>
+                    <li class="menu-items">
+                        <a>Show</a></li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <!--====GERAL====-->
+                <section class="geral">
+                    <div class="content-top">
+                      <div>
+                          <h1 title="Territorios Produtivos">Geral</h1>
+                          <p>Área Verde, Outra Banda, Parque das Rosas, São Benedito, Pau Serrado</p>
+                      </div>
+                      <div class="btn-exit">
+                        <a href="../index.html"><button class="bn632-hover bn18">Voltar</button></a>
+                      </div>
+                    </div>
+                    <div class="content-half">
+                        <div class="cont-half">
+                            <span class="top-topic">Unidade Territorial</span>
+                            <span class="top-subtopic">Top-1</span>
+                        </div>
+                        <div class="cont-half">
+                            <span class="top-topic">Responsavel</span>
+                            <span class="top-subtopic">Articulação</span>
+                        </div>
+                        <div class="cont-half">
+                            <span class="top-topic">Contato</span>
+                            <span class="top-subtopic">6969</span>
+                        </div>
+                    </div>
+                    <div class="text-cont-top">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nobis iure beatae. Magnam suscipit incidunt repellendus itaque numquam atque, nam perferendis impedit cumque vero iusto quis quo, laudantium qui labore.</p>
+                    </div>
+                    <div id="map"></div>
+                </section>
+                <!--====Agenda Territorial====-->
+                <section class="agenda">
+                    <div>
+                        <h1 title="Territorios Produtivos">Agenda Territorial</h1>
+                        <span>Top-1</span>
+                    </div>
+                    <div class="btn-exit">
+                        <a href="../index.html"><button type="button">Sair</button></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <!--====FOOTER====-->
+    <footer>
+
+        <div class="content-footer">
+            <div class="content-footer-left">
+                <img src="../assets/logopmm.png">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nostrum blanditiis eos earum,
+                    consequatur ex!</p>
+            </div>
+            <div class="content-footer-right">
+                <h1>ACOMPANHE</h1>
+                <div class="social-media">
+                    <a href="#"><img src="../assets/icons/icons8-instagram.svg" alt=""></a>
+                    <a href="#"><img src="../assets/icons/icons8-facebook-novo.svg" alt="" srcset=""></a>
+                    <a href="#"><img src="../assets/icons/icons8-reproduzir-youtube.svg" alt="" srcset=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">Copyright &copy 2022
+            Prefeitura Municipal
+            de Maranguape.</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('li').on('click', function() {
+                $(this).siblings().removeClass('active');
+                $(this).addClass('active');
+            })
+        })
+    </script>
+
+    <script src="/tops/top.js"></script>
+    <script src="map.js"></script>
+</body>
+
+</html>
