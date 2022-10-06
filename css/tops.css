@@ -405,7 +405,70 @@ footer{
     display: none;
 }
 
-/*====MAP====*/
+
+
+/*====TABELA====*/
+
+.content-equipments p {
+    margin-top: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+th, td {
+    border: 1px solid rgba(155, 155, 155, 0.15);
+    padding: 5px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: #2874fc;
+    color: #fff;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+th {
+    text-align: inherit;
+    padding: 10px;
+    width: 10%;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
 
 /*===AQUI COMEÇA A RESPONSIVIDADE DO SITE===*/
 
