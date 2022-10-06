@@ -427,6 +427,10 @@ footer{
     .container .row .side-menu {
         height: 43vh;
     }
+
+    .text-cont-top{
+        width: 100%;
+    }
 }
 
 @media (max-width: 821px){
@@ -474,10 +478,6 @@ footer{
 
     .copy{
         text-align: center;
-    }
-
-    .text-cont-top{
-        width: 100%;
     }
 }
 
