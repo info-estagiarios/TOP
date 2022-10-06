@@ -475,6 +475,10 @@ footer{
     .copy{
         text-align: center;
     }
+
+    .text-cont-top{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 791px) and (orientation: landscape){
