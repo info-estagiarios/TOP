@@ -551,6 +551,12 @@ th {
     }
 }
 
+@media screen and (width: 720px) and (orientation: landscape){
+    .container .row .side-menu{
+        height: 38vh;
+    }
+}
+
 @media screen and (max-width: 668px) and (orientation: landscape){
     .container .row .side-menu{
         height: 55vh;
@@ -560,6 +566,10 @@ th {
 @media screen and (max-width: 580px) and (orientation: portrait){
     table{
         font-size: 0.85rem;
+    }
+
+    .container .row .side-menu{
+        height: 25vh;
     }
 }
 
@@ -659,5 +669,25 @@ th {
 
     .menu__box{
         left: -120%;
+    }
+
+    .container .row .side-menu{
+        margin: 0;
+    }
+
+    .content-top h1{
+        font-size: 2rem;
+    }
+
+    .content-top p{
+        font-size: 0.6rem;
+    }
+
+    .cont-half span{
+        font-size: 0.75rem;
+    }
+
+    .text-cont-top p{
+        font-size: 0.7rem;
     }
 }
