@@ -557,6 +557,30 @@ th {
     }
 }
 
+@media screen and (max-width: 580px) and (orientation: portrait){
+    table{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 415px) and (orientation: portrait){
+    table{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 350px) and (orientation: portrait){
+    table{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 290px) and (orientation: portrait){
+    table{
+        font-size: 0.45rem;
+    }
+}
+
 @media (max-width: 480px){
     .content-top {
         width: 100%;
