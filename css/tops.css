@@ -196,6 +196,7 @@ li:hover {
     align-items: center;
     justify-content: center;
     height: 32%;
+    margin: 1.5rem;
 }
 
 .container .row .side-menu ul li a {
