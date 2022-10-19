@@ -673,6 +673,7 @@ th {
 
     .container .row .side-menu{
         margin: 0;
+        height: 30vh;
     }
 
     .content-top h1{
