@@ -328,7 +328,7 @@ section h1 {
 /*====MAP====*/
 
 #map {
-    width: 100%;
+    width: 90%;
     height: 70vh; 
     margin-top: 2rem;
 }
@@ -673,7 +673,6 @@ th {
 
     .container .row .side-menu{
         margin: 0;
-        height: 30vh;
     }
 
     .content-top h1{
