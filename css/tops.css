@@ -240,6 +240,13 @@ section {
     flex-direction: column;
 }
 
+.colegiados,
+.calendario,
+.download,
+.media{
+    display: none;
+}
+
 section h1 {
     color: #002e5b;
     font-size: 2.5rem;
@@ -328,7 +335,7 @@ section h1 {
 /*====MAP====*/
 
 #map {
-    width: 90%;
+    width: 100%;
     height: 70vh; 
     margin-top: 2rem;
 }
@@ -569,7 +576,7 @@ th {
     }
 
     .container .row .side-menu{
-        height: 25vh;
+        height: 45vh;
     }
 }
 
@@ -601,7 +608,7 @@ th {
     }
 
     .container .row .side-menu{
-        height: 23vh;
+        height: 40vh;
     }
 
     .text-cont-top{
@@ -614,6 +621,10 @@ th {
         align-items: center;
         justify-content: flex-start;
     }
+
+    .cont-half span{
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 400px){
@@ -622,23 +633,27 @@ th {
     }
 
     .container .row .side-menu {
-        height: 24vh;
+        height: 45vh;
     }
 }
 
 @media (max-width: 376px){
     .container .row .side-menu{
-        height: 26vh;
+        height: 45vh;
+    }
+
+    .cont-half span{
+        font-size: 0.7rem;
     }
 }
 
 @media (max-width: 360px){
     .cont-half span{
-        font-size: 0.85rem;
+        font-size: 0.7rem;
     }
 
     .container .row .side-menu {
-        height: 25vh;
+        height: 52vh;
     }
 
     .menu__box{
