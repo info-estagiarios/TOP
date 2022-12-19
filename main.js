@@ -24,7 +24,7 @@ sr.reveal('.hamburger-menu' , {duration: 200})
 
 /*====TEXT ANIMATION====*/
 
-var string = "Organizados";
+var string = "Produtivos";
 var array = string.split("");
 var timer;
 
