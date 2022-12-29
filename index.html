@@ -223,7 +223,10 @@
             </div>
             <div class="form-msg">
                 <h1>Fale Conosco</h1>
-                <form action="#" class="formulario">
+                <form action="https://formsubmit.co/ricardolimapinheiro17@gmail.com" method="POST" class="formulario">
+                    <input type="hidden" name="_autoresponse" value="VEM PRA CÁ BAITOLA">
+                    <input type="hidden" name="_next" value="http://localhost/ouvidoria_maranguap-main/"><!--SERVE PRA REDIRECIONAR O USUÁRIO PARA OUTRA PÁGINA-->
+                    <input type="hidden" name="_template" value="table">
                     <div class="box">
                         <input type="text" name="nome" placeholder="Nome *">
                     </div>
@@ -231,9 +234,10 @@
                         <input type="email" name="email" placeholder="E-mail *">
                     </div>
 
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Texto aqui!!!"></textarea>
+                    <textarea class="form-control" id="" cols="30" rows="10" name="message" placeholder="Texto aqui!!!"></textarea>
+
+                    <button type="submit" class="bn632-hover bn18 btn-footer">Enviar</button>
                 </form>
-                <button class="bn632-hover bn18 btn-footer">Enviar</button>
             </div>
         </div>
 
